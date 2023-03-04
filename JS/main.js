@@ -2,12 +2,12 @@
 
 let rock = document.querySelector('.rock')
 let paper = document.querySelector('.paper')
-let paper = document.querySelector('.scissors')
+let scissors = document.querySelector('.scissors')
 
 let playerChoice = 
 
 function disable(){
-  if(){
+  if() {
 
   }
 }
