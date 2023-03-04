@@ -1,0 +1,42 @@
+.game {
+    width: 476px;
+    height: 430px;
+
+}
+
+.game__rps {
+    width: 476px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    background: url(../images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rps__item {
+    width: 198px;
+    height: 194px;
+    border-radius: 50%;
+    transition: 0.3s;
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706); */
+    /* box-shadow: 10px 4px 10px #fff; */
+
+}
+
+.rps__item img{
+    width: 100%;
+}
+
+.rps__item:hover {
+    box-shadow: 2px 4px 0px 25px #ffffff2d;
+    
+}
+
+.disable{
+    display: none;
+}
+
